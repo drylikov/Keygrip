@@ -1,0 +1,29 @@
+{
+  "name": "keygrip",
+  "version": "1.1.0",
+  "description": "Key signing and verification for rotated credentials",
+  "license": "",
+  "repository": "drylikov/keygrip",
+  "dependencies": {
+    "tsscmp": "1.0.6"
+  },
+  "devDependencies": {
+    "eslint": "7.16.0",
+    "mocha": "8.2.1",
+    "nyc": "15.1.0"
+  },
+  "files": [
+    "HISTORY.md",
+    "README.md",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">= 0.6"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha --reporter spec test/",
+    "test-cov": "",
+    "test-travis": ""
+  }
+}
